@@ -1,4 +1,37 @@
 
+# Displays the branches in the repository
+git branch
+
+# Change which branch is being worked on
+git checkout git-notes
+
+# Create a new branch
+git branch git-notes
+
+
+
+
+# adds a file to the stage to be committed
+git add unix_notes.txt
+
+# Shows all uncommitted changes
+git status
+
+# Shows all committed changes
+git log
+
+
+# show the insertions and deletions between staged and
+# committed versions
+git diff --staged
+
+# commit changes and add a commit message
+git commit -m "Add initial version of unix notes."
+
+
+# start git tracking a project (directory)
+git init
+
 # -a shows all files, including hidden files.
 ls -a
 
