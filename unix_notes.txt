@@ -43,10 +43,9 @@ echo $PATH
 which git
 
 
-curl -fsSL http://git.io/Ggdljw | sh
 
-curl -fsSL http://git.io/7UHtNA | sh
-subl /etc/paths
+
+# verify that sublime is default editor
 echo $EDITOR
 
 
