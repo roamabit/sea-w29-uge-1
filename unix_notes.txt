@@ -8,7 +8,7 @@ git checkout git-notes
 # Create a new branch
 git branch git-notes
 
-
+# This is  a major edit. Please accept.
 
 
 # adds a file to the stage to be committed
