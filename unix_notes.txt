@@ -1,0 +1,187 @@
+# >> appends the output instead of overwriting
+history >> moving_around.txt
+
+# we created a shortcut to open things in sublime
+# using subl
+subl moving_around.txt
+
+
+less moving_around.txt
+
+# NOTE: we can use / to search for text within a pager
+# like less
+
+# output of history is written to file (will overwrite or
+# create the file if it doesn't already exist)
+
+history > moving_around.txt
+
+# output of history is piped to less
+history | less
+
+# history shows the last commands given (likely several    # pages depending on settings)
+
+history
+
+
+
+
+#Linux commands are case sensitive.  LS won't work.
+LS
+
+#print working directory
+pwd
+
+
+# update everything so it "just works"
+sudo apt-get dist-upgrade
+
+# Environment variables can be displayed by echo $VARIABLE
+echo $PATH
+
+# which shows where the program is running from
+which git
+
+
+curl -fsSL http://git.io/Ggdljw | sh
+
+curl -fsSL http://git.io/7UHtNA | sh
+subl /etc/paths
+echo $EDITOR
+
+
+./set_dark.sh
+cd ~/gnome-terminal-colors-solarized/
+cd Documents
+subl ~/.config/fish/config.fish
+sudo apt-get install -y sublime-text-installer
+sudo apt-get -y sublime-text-installer
+sudo apt-get check
+fish_update_completions
+cd Doc
+curl -fsSL http://git.io/beJs | ruby
+sudo apt-get install ruby
+which fish
+which fi
+sudo apt-get update
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt-add-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-add-repository -y ppa:fish-shell/release-2
+curl -fsSL http://git.io/Ak1LNQ | sh
+which curl
+sudo apt_get update
+echo $PS1
+chsh -s /usr/bin/fish
+echo $SHELL
+echo $shell
+sudo apt-get install fish
+sudo apt-get fish
+nano oldPrompt
+nano oldPrompt
+cd Documents/
+cler
+nano env
+env
+env | grep "PS1"
+more README.mkd
+set_dark.sh
+cd gnome-terminal-colors-solarized/
+info uname
+man -k uname
+help uname
+uname
+top
+git flow hotfix finish 'bugSquash'
+git flow hotfix start bugSquash
+git flow feature finish feature_name
+git flow feature start feature_name
+git flow init
+git branch integration
+cd my_project/
+sudo apt-get install git-flow
+apt-get install git-flow
+sudo lshw
+lshw
+help git remote add
+git push
+get push
+git clone
+git pull origin new_feature
+cd ~/our_clone_project/
+git log
+git merge new_feature
+git branch
+git push origin new_feature
+git commit -a -m "edit file2 for imminent changes"
+nano file2
+git checkout -b new_feature
+git remote
+git remote add our_clone ~/our_clone_project/
+cd our_clone_project/
+git clone ~/my_project/ our_clone_project
+git commit
+git add file1
+nano file1
+git merge orange
+git checkout master
+git commit -a -m "added text about conflict"
+git checkout orange
+git commit -a -m "added conflict"
+git branch
+more README.TXT
+git commit -a -m "inserted awesome"
+nano README.TXT
+git commit -a -m "inserted totally in front of awesome"
+get checkout master
+git commit -m "getting started on orange"
+git add file3
+git add file 3
+nano file3
+git branch orange
+git diff b0fba 3d1d
+get diff b0fba 3d1d
+cat file2
+cat file1
+git checkout b0fba8
+git commit -m "changed file2"
+git add file2
+git commit -m "changed file1"
+git commit -m "Added new project files"
+touch file3
+touch file2
+touch file1
+git commit -a -m "Added a project mission statement to README file"
+git config --global user.name "Matthew Ringel"
+git config --global user.email "matthew.r.ringel@gmail.com"
+git commit README.TXT
+git add README.TXT
+nano README.TXT
+ls -a
+git init my_project
+rm -r my_first_repository/
+rm -r my_project
+cd..
+git init
+mkdir my_project
+cd my_first_repository/
+git init my_first_repository
+git
+fglrxinfo
+sudo apt-get remove --purge fglrx*
+sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.BAK
+fglxinfo
+sudo apt-get install gksu
+./set_light.sh
+sudo apt-get install dconf-cli
+less README.mkd
+less readme
+install --help
+install
+git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git
+java -version
+java-version
+sudo apt-get upgrade
+sudo apt-get install git-gui
+sudo apt-get install git
+apt-cache search git
+sudo apt-get install build-essential
