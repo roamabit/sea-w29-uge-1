@@ -1,4 +1,9 @@
-# >> appends the output instead of overwriting
+
+# -a shows all files, including hidden files.
+ls -a
+
+# >> appends
+ the output instead of overwriting
 history >> moving_around.txt
 
 # we created a shortcut to open things in sublime
